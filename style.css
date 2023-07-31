@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+.header-line {
+  display: flex; /* Используем flex-контейнер для расположения дочерних элементов в строку */
+  justify-content: space-between;
+  width: 100%;
+  height: 53px;
+}
+
+.info,.info-content{
+  display: flex;
+  width: 50%;
+  align-items:center;
+  margin:auto;
+}
+
+.info-content {
+  width: 400px;
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+} 
+
+.phone-number {
+  display: flex;
+  align-items: center;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #504f4f;
+  
+}
+
+.phone{
+  margin-right: 10px;
+  align-items: center;
+
+}
+
+.pochta-ex {
+  display: flex;
+  align-items: center;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #504f4f;
+}
+
+.pochta {
+  margin-right: 10px;
+  align-items: center;
+}
+
+.contact-info,.contact-content {
+  display: flex;
+ align-items: center;
+ margin: auto;
+}
+
+.contact-info {
+  width: 50%;
+  margin-right: 100px;
+}
+
+.contact-content {
+  width: 300px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-left: 5px;
+  
+}
+
+.button-quote {
+  padding: 18.5px 30px;
+  background-color: #030557;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family:serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  position: relative;
+  margin-left: 20px;
+}
+
+.fecbook,.twit {
+  padding: 8px;
+  border: 1px solid rgba(223, 223, 223, 0.452);
+  border-radius: 50%;
+  background-color: rgba(223, 223, 223, 0.452);
+}
+
+.inst {
+  padding: 6.5px;
+  border: 1px solid rgba(223, 223, 223, 0.452);
+  border-radius: 50%;
+  background-color: rgba(223, 223, 223, 0.452);
+}
+
+.container-blank {
+  height: 60px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.header-title {
+  background: rgba(218, 3, 3, 0.918);
+}
+
+.title-container {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  width: 50%;
+  height: 60px;
+}
+
+.area {
+  text-decoration: none;
+  margin: 20px;
+  color: White;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+}
